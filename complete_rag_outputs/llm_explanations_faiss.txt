@@ -1,0 +1,259 @@
+================================================================================
+LLM EXPLANATIONS - FAISS MODE
+================================================================================
+
+
+================================================================================
+PREDICTION EXPLANATION - FAISS MODE
+================================================================================
+
+TARGET PRODUCT:
+  Title: StarTech.com 2m USB to Type M Barrel Cable - USB to 5.5mm 5V DC Cable ...
+  Brand: StarTech
+  Category: Computers
+  
+PREDICTION RESULTS:
+  Actual Price:      $5.99
+  Predicted Price:   $9.80
+  Error:            $3.81 (63.6%)
+  
+RETRIEVAL ANALYSIS:
+  Method:           FAISS
+  Similar Products: 15
+  Avg Similarity:   0.622
+  Price Range:      $5.46 - $39.95
+
+TOP 5 MOST SIMILAR PRODUCTS:
+
+1. CABLEDECONN USB to 5.5 mm/2.1 mm 5 Volt DC Barrel Jack Power Cabl...
+   Brand: CABLEDECONN          | Price: $   6.99 | Similarity: 0.740
+2. SIOCEN 3-Pack 4ft USB 2.0 A Type Male to DC 5.5 x 2.1mm DC 5V Pow...
+   Brand: SIOCEN               | Price: $   8.99 | Similarity: 0.719
+3. Gear Head USB 2.0 Flat Panel Speakers for Home/Office (SP2500USB)...
+   Brand: Gear Head            | Price: $  39.95 | Similarity: 0.640
+4. zdyCGTime 50CM Micro USB 5pin Male to 1x 5Pin Female 0.1" USB Hea...
+   Brand: zdyCGTime            | Price: $   6.99 | Similarity: 0.636
+5. Monoprice 15-Feet USB A to mini-B 5pin 28/28AWG Cable (103898)...
+   Brand: Monoprice            | Price: $   5.48 | Similarity: 0.616
+
+--------------------------------------------------------------------------------
+PREDICTION QUALITY ASSESSMENT:
+  Quality Level: POOR ✗
+  Reasoning: Prediction differs significantly from actual
+
+SIMILARITY ANALYSIS:
+  Good similarity - retrieved products are reasonably comparable
+
+PRICE REASONING:
+  The predicted price of $9.80 was calculated using weighted_mean
+  based on 15 similar products with average similarity 0.622.
+  Prediction is $3.81 higher than actual - may be influenced by
+  higher-priced similar items (range: $5.46-$39.95).
+
+================================================================================
+
+
+
+================================================================================
+PREDICTION EXPLANATION - FAISS MODE
+================================================================================
+
+TARGET PRODUCT:
+  Title: Incipio Invert Reversible Universal Folio 10-Inch (UNV-100-BLKGRY)...
+  Brand: Incipio
+  Category: Computers
+  
+PREDICTION RESULTS:
+  Actual Price:      $19.99
+  Predicted Price:   $17.49
+  Error:            $2.50 (12.5%)
+  
+RETRIEVAL ANALYSIS:
+  Method:           FAISS
+  Similar Products: 15
+  Avg Similarity:   0.657
+  Price Range:      $10.00 - $39.89
+
+TOP 5 MOST SIMILAR PRODUCTS:
+
+1. Incipio Invert Reversible Universal Folio 7-Inch (UNV-101-BLKGRY)...
+   Brand: Incipio              | Price: $  10.00 | Similarity: 0.900
+2. Universal Case for 9-10 Inch Tablet, Techcircle Folio Wallet Stan...
+   Brand: Techcircle           | Price: $  18.99 | Similarity: 0.656
+3. Fintie Case for Onn. 10.1" Tablet Pro (Model: 100003562), Premium...
+   Brand: Fintie               | Price: $  16.99 | Similarity: 0.652
+4. Fintie Case for iPad Air (3rd Gen) 10.5" 2019 / iPad Pro 10.5" 20...
+   Brand: Fintie               | Price: $  19.99 | Similarity: 0.646
+5. Fintie Folio Case for Samsung Galaxy Tab E 8.0 - Premium PU Leath...
+   Brand: Fintie               | Price: $  11.99 | Similarity: 0.645
+
+--------------------------------------------------------------------------------
+PREDICTION QUALITY ASSESSMENT:
+  Quality Level: GOOD ✓✓
+  Reasoning: Prediction within 20% of actual price
+
+SIMILARITY ANALYSIS:
+  Good similarity - retrieved products are reasonably comparable
+
+PRICE REASONING:
+  The predicted price of $17.49 was calculated using weighted_mean
+  based on 15 similar products with average similarity 0.657.
+  Prediction is $2.50 lower than actual - may be influenced by
+  lower-priced similar items (range: $10.00-$39.89).
+
+================================================================================
+
+
+
+================================================================================
+PREDICTION EXPLANATION - FAISS MODE
+================================================================================
+
+TARGET PRODUCT:
+  Title: 10 inch Tablets, Android 11.0 Tablets, 6GB+128GB, 512GB Expand, Quad-C...
+  Brand: BYANDBY
+  Category: Computers
+  
+PREDICTION RESULTS:
+  Actual Price:      $69.99
+  Predicted Price:   $84.22
+  Error:            $14.23 (20.3%)
+  
+RETRIEVAL ANALYSIS:
+  Method:           FAISS
+  Similar Products: 15
+  Avg Similarity:   0.805
+  Price Range:      $49.99 - $149.99
+
+TOP 5 MOST SIMILAR PRODUCTS:
+
+1. Tablet 64GB 10 Inch Tablet, Android 11 Tablets, 6000mAh Battery Q...
+   Brand: NOVOJOY              | Price: $  49.99 | Similarity: 0.864
+2. EEW Tablet 10 Inch Android 10.0, 1280x800 HD Touchscreen, 32GB RO...
+   Brand: EEW                  | Price: $  89.98 | Similarity: 0.853
+3. Tablet 10.4 inch,Android 11 GO Tablet,Quad-core 1.6GHz Processor,...
+   Brand: Fullant              | Price: $  59.99 | Similarity: 0.828
+4. SGIN 10 inch Tablet, Android 12 Tablet Quad-Core A133 1.6Ghz Proc...
+   Brand: SGIN                 | Price: $  99.99 | Similarity: 0.817
+5. Tablet, 10 inch Tablets Android, 64GB ROM & 512GB Expand, 2+8MP D...
+   Brand: YQSAVIOR             | Price: $  54.96 | Similarity: 0.815
+
+--------------------------------------------------------------------------------
+PREDICTION QUALITY ASSESSMENT:
+  Quality Level: FAIR ✓
+  Reasoning: Prediction within 30% of actual price
+
+SIMILARITY ANALYSIS:
+  Very high similarity - retrieved products are highly comparable
+
+PRICE REASONING:
+  The predicted price of $84.22 was calculated using weighted_mean
+  based on 15 similar products with average similarity 0.805.
+  Prediction is $14.23 higher than actual - may be influenced by
+  higher-priced similar items (range: $49.99-$149.99).
+
+================================================================================
+
+
+
+================================================================================
+PREDICTION EXPLANATION - FAISS MODE
+================================================================================
+
+TARGET PRODUCT:
+  Title: Logitech High-Performance USB Headset H540 for Windows and Mac, Skype ...
+  Brand: Logitech
+  Category: Computers
+  
+PREDICTION RESULTS:
+  Actual Price:      $59.98
+  Predicted Price:   $166.02
+  Error:            $106.04 (176.8%)
+  
+RETRIEVAL ANALYSIS:
+  Method:           FAISS
+  Similar Products: 15
+  Avg Similarity:   0.688
+  Price Range:      $12.99 - $989.00
+
+TOP 5 MOST SIMILAR PRODUCTS:
+
+1. Logitech HD Pro Webcam C920, Widescreen Video Calling and Recordi...
+   Brand: Logitech             | Price: $  64.49 | Similarity: 0.838
+2. Logitech ConferenceCam Connect All-in-One Video Collaboration Sol...
+   Brand: Logitech             | Price: $ 432.00 | Similarity: 0.753
+3. Webcam with Microphone & Privacy Cover, 1080P Drive-Free USB Plug...
+   Brand: Unknown              | Price: $  15.99 | Similarity: 0.730
+4. Logitech ConferenceCam CC3000e All-in-One HD Video and Audio Conf...
+   Brand: Logitech             | Price: $ 989.00 | Similarity: 0.721
+5. logitech C922 Pro Stream Webcam 1080P Camera for HD Video Streami...
+   Brand: Logitech             | Price: $  61.60 | Similarity: 0.704
+
+--------------------------------------------------------------------------------
+PREDICTION QUALITY ASSESSMENT:
+  Quality Level: POOR ✗
+  Reasoning: Prediction differs significantly from actual
+
+SIMILARITY ANALYSIS:
+  Good similarity - retrieved products are reasonably comparable
+
+PRICE REASONING:
+  The predicted price of $166.02 was calculated using weighted_mean
+  based on 15 similar products with average similarity 0.688.
+  Prediction is $106.04 higher than actual - may be influenced by
+  higher-priced similar items (range: $12.99-$989.00).
+
+================================================================================
+
+
+
+================================================================================
+PREDICTION EXPLANATION - FAISS MODE
+================================================================================
+
+TARGET PRODUCT:
+  Title: Blueangle Aurora Borealis Wolf Print Travel Backpack for School Water ...
+  Brand: Blueangle
+  Category: Computers
+  
+PREDICTION RESULTS:
+  Actual Price:      $33.99
+  Predicted Price:   $32.05
+  Error:            $1.94 (5.7%)
+  
+RETRIEVAL ANALYSIS:
+  Method:           FAISS
+  Similar Products: 15
+  Avg Similarity:   0.646
+  Price Range:      $17.68 - $44.98
+
+TOP 5 MOST SIMILAR PRODUCTS:
+
+1. Canvas Leather Backpack Vintage Backpack Rucksack Casual Outdoor ...
+   Brand: Unknown              | Price: $  29.99 | Similarity: 0.685
+2. KAUKKO Travel Laptop Backpack, Outdoor Rucksack, School backpack ...
+   Brand: Unknown              | Price: $  42.99 | Similarity: 0.671
+3. Backpack for Teen Girls Womens School Backpack Laptop Bookbags Tr...
+   Brand: Bluboon              | Price: $  24.99 | Similarity: 0.657
+4. ALAZA Hand Drawn Octopus Animal Navy Blue Backpack Purse for Wome...
+   Brand: Unknown              | Price: $  34.99 | Similarity: 0.654
+5. HuaChen Vintage Canvas Backpack, Mens Travel Leather Rucksack for...
+   Brand: HuaChen              | Price: $  42.98 | Similarity: 0.648
+
+--------------------------------------------------------------------------------
+PREDICTION QUALITY ASSESSMENT:
+  Quality Level: EXCELLENT ✓✓✓
+  Reasoning: Prediction within 10% of actual price
+
+SIMILARITY ANALYSIS:
+  Good similarity - retrieved products are reasonably comparable
+
+PRICE REASONING:
+  The predicted price of $32.05 was calculated using weighted_mean
+  based on 15 similar products with average similarity 0.646.
+  Prediction is $1.94 lower than actual - may be influenced by
+  lower-priced similar items (range: $17.68-$44.98).
+
+================================================================================
+
+

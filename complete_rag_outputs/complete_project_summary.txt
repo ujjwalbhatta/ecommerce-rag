@@ -1,0 +1,68 @@
+================================================================================
+COMPLETE RAG PRICE PREDICTION PROJECT - SUMMARY REPORT
+================================================================================
+
+PROJECT OVERVIEW:
+  Dataset: /Users/ujjwalbhatta/Downloads/meta_Electronics.jsonl
+  Total products loaded: 11715
+  Train set: 9372
+  Test set: 2343
+  Price range: $5.00 - $999.99
+  Category: ['Computers']
+
+CONFIGURATION:
+  Embedding model: all-MiniLM-L6-v2
+  Prediction method: weighted_mean
+  k (FAISS/BM25): 15
+  k_hybrid: 15
+  Alpha (hybrid weight): 0.5
+  Reranking: True
+
+================================================================================
+EVALUATION METRICS COMPARISON
+================================================================================
+
+FAISS MODE:
+  MAE:        $44.41
+  RMSE:       $90.66
+  R²:         0.7164
+  MAPE:       86.88%
+  Median AE:  $13.24
+
+BM25 MODE:
+  MAE:        $41.63
+  RMSE:       $85.38
+  R²:         0.7485
+  MAPE:       85.54%
+  Median AE:  $12.85
+
+HYBRID MODE:
+  MAE:        $42.05
+  RMSE:       $87.12
+  R²:         0.7381
+  MAPE:       81.78%
+  Median AE:  $12.10
+
+================================================================================
+BEST PERFORMING MODE:
+================================================================================
+
+Best Mode: BM25
+R² Score: 0.7485
+MAE: $41.63
+MAPE: 85.54%
+
+================================================================================
+GENERATED FILES:
+================================================================================
+  1. comparison_all_modes.png - Side-by-side comparison
+  2. detailed_faiss.png - FAISS detailed analysis
+  3. detailed_bm25.png - BM25 detailed analysis
+  4. detailed_hybrid.png - Hybrid detailed analysis
+  5. predictions_with_similar_faiss.csv - FAISS results
+  6. predictions_with_similar_bm25.csv - BM25 results
+  7. predictions_with_similar_hybrid.csv - Hybrid results
+  8. llm_explanations_faiss.txt - FAISS explanations
+  9. llm_explanations_bm25.txt - BM25 explanations
+  10. llm_explanations_hybrid.txt - Hybrid explanations
+  11. complete_project_summary.txt - This file
